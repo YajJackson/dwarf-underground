@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './article.css'
 import Avatar from './avatar/avatar'
 import ArticleBody from './ArticleBody/ArticleBody'
+import ArticleLinks from './ArticleLinks/ArticleLinks'
 
 class Article extends Component {
     render(){
@@ -10,17 +11,7 @@ class Article extends Component {
                 <h2 className="article-title">Gold Madness - Fact or Fiction?</h2>
                 <Avatar />
                 <ArticleBody />
-                
-                <div className="article-links">
-                    <a className="article-link" href="#">
-                        <i className="fa fa-comments-o"></i>
-                        <span className="article-link-text">Comments</span>
-                    </a>
-                    <a className="article-link" href="#">
-                        <i className="fa fa-share"></i>
-                        <span className="article-link-text">Share Post</span>
-                    </a>
-                </div>
+                <ArticleLinks />
             </div>
         )
     }
