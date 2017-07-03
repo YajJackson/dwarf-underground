@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import './otherArticles.css'
+import './otherArticles.css'
 
 class Others extends Component {
     render(){
